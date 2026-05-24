@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fasting Manager - Fasting Timer &amp; Health Data</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fafafa;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px 30px;
+        }
+        header h1 {
+            font-size: 2.4em;
+            color: #1a7a3c;
+            margin: 0 0 8px;
+        }
+        header p.subtitle {
+            font-size: 1.15em;
+            color: #555;
+            margin: 0 0 24px;
+        }
+        .download-btn {
+            display: inline-block;
+            background: #1a7a3c;
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 32px;
+            border-radius: 24px;
+            font-size: 1em;
+            font-weight: bold;
+        }
+        .download-btn:hover { background: #15602f; }
+        .description {
+            background: #fff;
+            border-radius: 12px;
+            padding: 24px 28px;
+            margin: 24px 0;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+        }
+        h2 {
+            color: #1a7a3c;
+            border-bottom: 2px solid #1a7a3c;
+            padding-bottom: 8px;
+            margin-top: 0;
+        }
+        h3 {
+            color: #2c3e50;
+            margin-top: 20px;
+        }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 4px; }
+        .badge-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin: 8px 0 4px;
+        }
+        .badge {
+            background: #e8f5ec;
+            color: #1a7a3c;
+            border-radius: 6px;
+            padding: 4px 12px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            color: #888;
+            font-size: 0.85em;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+        footer a { color: #1a7a3c; }
+        .lang-switch {
+            text-align: right;
+            margin-bottom: 8px;
+        }
+        .lang-switch a {
+            color: #1a7a3c;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<div class="lang-switch"><a href="../ja/">日本語</a></div>
+
+<header>
+    <h1>Fasting Manager</h1>
+    <p class="subtitle">Smart Fasting Timer &amp; Health Data Tracker</p>
+    <a class="download-btn" href="https://apps.apple.com/app/id断食するアプリID">Download on the App Store</a>
+</header>
+
+<div class="description">
+    <h2>About the App</h2>
+    <p>
+        Fasting Manager (断食する？) combines intermittent fasting schedule management with
+        Apple HealthKit data viewing — all in one app. Get notified when your fasting
+        window starts and ends, and track your health metrics with clear charts.
+    </p>
+    <div class="badge-row">
+        <span class="badge">iPhone</span>
+        <span class="badge">HealthKit</span>
+        <span class="badge">iOS 17+</span>
+    </div>
+</div>
+
+<div class="description">
+    <h2>Key Features</h2>
+
+    <h3>1. Fasting Timer</h3>
+    <p>Choose from four popular intermittent fasting protocols and let the app manage your daily schedule automatically.</p>
+    <ul>
+        <li><strong>16:8</strong> — 16 hours fasting / 8 hours eating</li>
+        <li><strong>18:6</strong> — 18 hours fasting / 6 hours eating</li>
+        <li><strong>12:12</strong> — 12 hours fasting / 12 hours eating</li>
+        <li><strong>OMAD</strong> — One Meal A Day (23 hours fasting)</li>
+    </ul>
+    <ul>
+        <li>Choose which days of the week to fast</li>
+        <li>Customize your meal start time</li>
+        <li>Status banner shows your current fasting / eating phase at a glance</li>
+    </ul>
+
+    <h3>2. Fasting Notifications</h3>
+    <ul>
+        <li>Local notifications remind you when fasting starts and ends</li>
+    </ul>
+
+    <h3>3. Health Data Viewer</h3>
+    <p>Visualize your Apple HealthKit data with charts and detailed lists.</p>
+    <ul>
+        <li>Supports body weight, blood pressure (systolic/diastolic), heart rate, and step count</li>
+        <li>Four time ranges: day, week, month, and year</li>
+        <li>List view shows raw numeric values with timestamps</li>
+        <li>Export data as CSV</li>
+    </ul>
+
+    <h3>4. Measurement Reminders</h3>
+    <ul>
+        <li>Get reminded to measure your blood pressure or body weight</li>
+        <li>Customize the reminder time and days of the week</li>
+    </ul>
+
+    <h3>5. Privacy First</h3>
+    <ul>
+        <li>All health data stays on your device — never sent to external servers</li>
+        <li>HealthKit access requires your explicit permission</li>
+        <li>Ad privacy settings via Google UMP (GDPR / ATT compliant)</li>
+    </ul>
+</div>
+
+<div class="description">
+    <h2>Supported Devices</h2>
+    <p>iPhone (iOS 17 or later)</p>
+</div>
+
+<div class="description">
+    <h2>Advertising</h2>
+    <p>
+        This app uses Google AdMob to display advertisements.
+        We respect user privacy and comply with App Tracking Transparency and Google UMP.
+        Personalized or non-personalized ads are shown based on your preference.
+    </p>
+</div>
+
+<footer>
+    <p>
+        <a href="https://taizoy0725.github.io/makidenlite/en/privacy-policy.html">Privacy Policy</a> |
+        <a href="https://www.facebook.com/mobazoiPhoneApp">Contact Us</a>
+    </p>
+    <p>© 2026 mobazou. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
