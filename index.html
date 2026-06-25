@@ -2,8 +2,12 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=ja/">
     <title>Fasting Manager</title>
+    <script>
+        var language = (navigator.language || navigator.userLanguage || "").toLowerCase();
+        var target = language.startsWith("ja") ? "ja/" : "en/";
+        window.location.replace(target);
+    </script>
 </head>
 <body>
     <p><a href="ja/">日本語はこちら</a> / <a href="en/">English</a></p>
